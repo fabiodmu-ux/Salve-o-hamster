@@ -1,82 +1,45 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ONG Defenda o Hamster</title>
-  
-  <meta property="og:title" content="ONG Defenda o Hamster | Protegendo os pequenos com amor" />
-  <meta property="og:description" content="Nossa missão é resgatar, cuidar e promover a adoção responsável de hamsters." />
-  <meta property="og:image" content="https://generative-models.web.app/images/07d8124d-e99d-4813-9118-8f55394b9f2c/banner-hamster.webp" />
-  <meta property="og:url" content="https://fabiodmu-ux.github.io/Meu-projeto/hamster.html" />
-  <meta property="og:type" content="website" />
-  <link rel="stylesheet" href="style.css">
-  <style>
-    header {
-      background-color: #f39c12;
-      color: white;
-      padding: 30px 0;
-      text-align: center;
-    }
-    nav a {
-      color: #f39c12;
-    }
-    .banner {
-      width: 100%;
-      max-height: 400px;
-      object-fit: cover;
-      border-bottom: 5px solid #f39c12;
-    }
-    .section {
-      margin: 40px auto;
-      max-width: 900px;
-      padding: 20px;
-      background-color: white;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-    .section img {
-      max-width: 100%;
-      border-radius: 8px;
-      margin-top: 20px;
-    }
-    .gallery {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-      margin-top: 20px;
-    }
-    footer {
-      background-color: #f39c12;
-      color: white;
-      text-align: center;
-      padding: 20px;
-      margin-top: 40px;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ONG Defenda o Hamster</title>
+  
+  <meta property="og:title" content="ONG Defenda o Hamster | Protegendo os pequenos com amor" />
+  <meta property="og:description" content="Nossa missão é resgatar, cuidar e promover a adoção responsável de hamsters." />
+  <meta property="og:image" content="https://generative-models.web.app/images/07d8124d-e99d-4813-9118-8f55394b9f2c/banner-hamster.webp" />
+  <meta property="og:url" content="https://fabiodmu-ux.github.io/Meu-projeto/hamster.html" />
+  <meta property="og:type" content="website" />
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Mantendo o estilo inline para não quebrar o layout */
+    header { background-color: #f39c12; color: white; padding: 30px 0; text-align: center; }
+    nav a { color: #f39c12; }
+    .banner { width: 100%; max-height: 400px; object-fit: cover; border-bottom: 5px solid #f39c12; }
+    .section { margin: 40px auto; max-width: 900px; padding: 20px; background-color: white; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    .section img { max-width: 100%; border-radius: 8px; margin-top: 20px; }
+    .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 20px; }
+    footer { background-color: #f39c12; color: white; text-align: center; padding: 20px; margin-top: 40px; }
+  </style>
 </head>
 <body>
-  <header>    <h1>ONG Defenda o Hamster</h1>    <p>Protegendo os pequenos com amor e responsabilidade 🐹</p>  </header>
- <nav>
-    <a href="index.html">Início</a>
-    <a href="sobre.html">Sobre Nós</a>
-    <a href="projeto.html">Nosso Projeto</a>
-    <a href="voluntarios.html">Voluntários</a>
-    <a href="doacao.html">Doar</a> 
-    <a href="contato.html">Contato</a>
+  <header>    <h1>ONG Defenda o Hamster</h1>    <p>Protegendo os pequenos com amor e responsabilidade 🐹</p>  </header>
+ <nav>
+        <a href="#inicio" data-route="inicio">Início</a>
+    <a href="#sobre" data-route="sobre">Sobre Nós</a>
+    <a href="#projeto" data-route="projeto">Nosso Projeto</a>
+    <a href="voluntarios.html">Voluntários</a>
+    <a href="doacao.html">Doar</a> 
+    <a href="contato.html">Contato</a>
 </nav>
-  
-  <img src="hamster-pequeno.jpg" alt="Hamster na floresta com o logo da ONG e slogan" class="banner">
-  
-  <div class="section">    <h2>Nossa História</h2>    <p>Em uma manhã de outono, durante uma caminhada por uma trilha arborizada, nossa fundadora encontrou uma pequena caixa abandonada entre as folhas. Dentro dela, dois hamsters assustados tentavam se esconder do frio. A cena foi comovente — e transformadora.</p>    <p>Foi ali, naquele instante, que nasceu a ideia da ONG <strong>Defenda o Hamster</strong>. Desde então, nossa missão tem sido clara: proteger, cuidar e dar voz aos pequenos roedores que muitas vezes são negligenciados ou descartados como brinquedos descartáveis.</p>    <p>Hoje, somos uma rede de voluntários apaixonados, veterinários parceiros e famílias adotivas que acreditam que cada vida importa — mesmo as menores.</p>    <img src="Hamster explorando a floresta.jpg" alt="Hamster explorando a floresta">  </div>
-  <div class="section">	   <h2>Curiosidade</h2>	      <p>Hamster são Nativos de regiões como o Oriente Médio, Ásia e parte da Europa, esses animais foram inicialmente estudados e criados  para pesquisas cientificasantes de se tornarem companheiros domésticos.Existe cerca de 18 espécies de hamsters, sendo as mais comuns como pets o Haminster-Sírio, o Dourado e o Chinês.Esses roedores são caracterizados por serem bem pequenos,com corpos arredondados, pelagem macia e cauda curta. </p>
-  <img src="na toca.jpg" alt="hamster roborovskir"
-  <div class="section">    <h2>Cuidados</h2>          <p>Cuidados O hamster roborovski tem um sistema digestivo frágil, e sua dieta deve ser semelhante à de seu habitat natural, incluindo sementes, verduras, frutas, cereais e frutos secos. Alimentos com especiarias, sal, condimentos, frituras, açúcar e chocolate são proibidos.A gaiola deve ser espaçosa (mínimo de 80 x 40 cm) e ter um substrato absorvente que não levante pó, como serragem de madeira natural ou celulose. Também deve incluir um refúgio e brinquedos para distração.</p>
-  <div class="section">    <h2>Nosso Compromisso</h2>    <ul>      <li>Resgatar hamsters em situação de abandono</li>      <li>Oferecer cuidados veterinários e reabilitação</li>      <li>Promover adoção responsável e consciente</li>      <li>Educar sobre o bem-estar animal e a guarda responsável</li>    </ul>    <img src="Hamster e coelho na floresta.jpg" alt="Hamster e coelho na floresta">  </div>
-  <div class="section">    <h2>Galeria: Hamsters em Harmonia com a Natureza</h2>    <p>Veja como nossos pequenos amigos se conectam com o mundo natural. Cada imagem representa o cuidado, a liberdade e o carinho que buscamos oferecer.</p>
-  <div class="gallery">      <img src="curioso.jpg" alt="curioso na floresta">      <img src="hamster-pequeno.jpg" alt="Hamster entre folhas secas">      <img src="hamster na floresta.jpg" alt="Hamster explorando o campo">      <img src="seu ambiente natural.jpg" alt="Hamster em ambiente natural">    </div>  </div>
-  <footer>    <p>&copy; 2025 ONG Defenda o Hamster — Todos os direitos reservados</p>    <p>Nos siga nas redes sociais: @defendaohamster</p>    <p>Contato: defendaohamster@ong.org</p>  </footer>
-</body>
+  
+  <img src="hamster-pequeno.jpg" alt="Hamster na floresta com o logo da ONG e slogan" class="banner">
+  
+    <main id="app-content">
+      </main>
+  
+  <footer>    <p>&copy; 2025 ONG Defenda o Hamster — Todos os direitos reservados</p>    <p>Nos siga nas redes sociais: @defendaohamster</p>    <p>Contato: defendaohamster@ong.org</p>  </footer>
 
+    <script type="module" src="js/main.js"></script>
+</body>
 </html>
